@@ -1,0 +1,127 @@
+.header{
+  height: 14vh;
+  background-color: #F7CAC9;
+  display: flex;
+  margin-bottom: 5%;
+  font-family: cursive;
+  font-size: 40px;
+
+  border-bottom: solid 2px;
+    border-color: #ccc;
+}
+
+.header-title{
+
+  text-align: center;
+  margin: auto;
+}
+
+.movies-container{
+      margin-bottom: 20px;
+}
+.movie-card{
+  height: 310px;
+  box-shadow: 3px -1px 5px rgb(0 0 0 / 40%);
+  border-radius: 10px;
+
+  border-left: solid 1px;
+  border-color: #a9a9a9;
+  
+  margin-top: 15px;
+}
+.movie-close{
+  position: relative;
+}
+.movie-image{
+  width: 100%;
+  border-radius: 10px;
+}
+.movie-text{
+  padding: 20px;
+}
+.movie-title{
+  font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+}
+.movie-category{
+  font-size: 16px;
+  font-family: cursive;
+}
+
+.close-button {
+  color: #fff;
+  background-color: #999;
+  
+  
+  font-size: 15px;
+  border-radius: 50%;
+  border: 2px solid #333;
+
+
+  position: absolute;
+  top: -1;
+  right: -15px;
+}
+
+.movie-reactions{
+  display: flex;
+}
+.movie-react{
+  width: 50%;
+}
+.react-num{
+  margin-left: 15px;
+}
+.loading{
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.reaction-icon{
+  color: gray;
+}
+.filter-select{
+  margin-bottom: 20px
+}
+
+select{
+  border-color: #b5b5b5;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.bottom-margin{
+  margin-bottom: 50px;
+}
+
+ @media (max-width: 414px) {
+  
+  .container{
+    padding-left: 0;
+  }
+  .movies-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .movie-image {
+    height: 150px;
+  }
+
+  .filters{
+    margin-left: 20px;
+  }
+  .filter-perpage{
+    margin-top: 20px;
+  }
+  .filter-group{
+    display: block;
+  }
+  
+
+}
+
